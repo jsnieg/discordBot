@@ -9,6 +9,7 @@ Discord Bot in Node.js
 ## Setup / Usage
 
 - `npm init`
+
 > If running on Windows env you may need to change your Execution Policy with this command `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`.
 
 - `npm install discord.js`
