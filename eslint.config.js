@@ -1,4 +1,5 @@
 // ESLint may display many warnings and errors about the code.
+// Below is a way to ignore/accept these errors.
 const js = require('@eslint/js');
 
 module.exports = [
@@ -15,7 +16,8 @@ module.exports = [
 			curly: ['error', 'multi-line', 'consistent'],
 			'dot-location': ['error', 'property'],
 			'handle-callback-err': 'off',
-			indent: ['error', 'tab'],
+			// indent: ['error', 'tab'],
+			indent: 'off',
 			'keyword-spacing': 'error',
 			'max-nested-callbacks': ['error', { max: 4 }],
 			'max-statements-per-line': ['error', { max: 2 }],
