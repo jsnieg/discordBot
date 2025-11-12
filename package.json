@@ -1,0 +1,23 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord Bot in Node.js",
+  "homepage": "https://github.com/jsnieg/discordBot#readme",
+  "bugs": {
+    "url": "https://github.com/jsnieg/discordBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsnieg/discordBot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2"
+  }
+}
