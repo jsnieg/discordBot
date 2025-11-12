@@ -20,4 +20,6 @@ To install a Linter run:
 
 ### Running with .env
 
+Create `.env` under `env` directory and add your Bot's Token in new line `DISCORD_TOKEN=<your_token>`.
+
 - `node --env-file=env/.env discordBot/src/index.js`
